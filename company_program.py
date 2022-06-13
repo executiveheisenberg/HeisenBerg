@@ -1,32 +1,30 @@
-from msvcrt import getch
-from playsound import playsound
+#Author: HeisenBerg
+#Topic: PRODUCT MANAGEMENT
+print("type 878, 879, 870, 784 for Anabond 878 4.5kg")
+prn=input("Enter Product Name ")
+# prn=int(prn)
+# wlc=(prn.replace("welcome","swagat ha aapka"),prn)
+es8=("Price for Anabond 878, 100gm is 700+GST")
+es9=("Price for Anabond 879 150gm is 715+GST")
+es0=("Price for Anabond 870, 100ML is 90+GST")
+es4=("Price for Anabond 878, 4.5KG is 600+GST")
+
+print(prn.replace("878",es8))
+print(prn.replace("879",es9))
+print(prn.replace("870",es0))
+print(prn.replace("784",es4))
+
+# s100=(s100.reaplce("100","Yes Packing size for 870 is 100Grams "))
+# print(s100)
+# # print(rnc.replace("100gm","Price for Anabond 878 100 Gram tube is 700Rs."))
+# kg=("You have selected Anabond 878 in 4.5kg packing")
+# print(rnc.replace("4.5", kg))
+# print(" ")
+# print(wlc)
+
+# print(dict1["Mayank"])
+# print(dict1["age"])mayan
+# print(dict1['dict2'])
 
 
-yname=input("Enter your Name ")
-yb=input("Enter your Year of Birth ")
-cname=input("Enter your Company name ")
-sname=input("Enter Company State/City name ")
-spin=input("Enter your State pin code ")
-arname=input("Enter your office area name ")
-arpin=input("Enter your area pin code ")
-
-spin=int(spin)
-yb=int(yb)
-a=2022-yb
-#a=int(a)
-arpin=int(arpin)
-
-#print(type(spin))
-
-print("Hello ",yname)
-print("Your Company name is confirmed ",cname)
-print("Your Company address is confirmed ",sname)
-print("You State ",sname," pin code is ",spin)
-print("Your office area confirmed at ",arname)
-print("Your office area pin code is ",arpin)
-print("Hello",yname," your age is",a)
-
-                                                #playsound("M:\\one\\sound.mp3")
-
-getch()
 

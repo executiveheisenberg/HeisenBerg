@@ -1,0 +1,14 @@
+# Author: HeisenBerg
+# Topic: ADVANCED Dictionary 2
+dict1={
+    "878" : "Anabond 878",
+    "879" : "Anabond 879",   
+    "pcode" : [72540000428],
+     428 : 72540000,
+    "dict2" : {"mayankk":"double k"},
+    1983    :   31
+}
+
+print(list(dict1.keys()))#shows all keys dict1 have in list (in one list)
+print(list(dict1.values()))#shows all values dict1 have
+print(list(dict1.items()))#shows all items keys and values dict1 have
