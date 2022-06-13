@@ -1,10 +1,14 @@
-#Author: HeisenBerg
-#Topic: GST
-# print("878 for Anabond 878, 879 for Anabond 879 and so on ")
-product='''Porduct you have selected is <prod>\n
-and you product <prod> is available in stock, \n100gm of capacity'''
+# print(dict2.sort[0:])
+# print(dict["879"])
+# print(dict)
+# prn=int(prn)
+# wlc=(prn.replace("welcome","swagat ha aapka"),prn)
+# es8=("Price for Anabond 878, 100gm is 700+GST")
+# es9=("Price for Anabond 879 150gm is 715+GST")
+# es0=("Price for Anabond 870, 100ML is 90+GST")
+# es4=("Price for Anabond 878, 4.5KG is 600+GST")
 
-tellp = input("Select product name for Anabond\n")
-
-product=product.replace("<prod>" ,tellp)
-print(product)
+# print(prn.replace("878",es8))
+# print(prn.replace("879",es9))
+# print(prn.replace("870",es0))
+# print(prn.replace("784",es4))

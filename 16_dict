@@ -1,0 +1,18 @@
+# Author: HeisenBerg
+# Topic: Dictionary
+dict1={
+    "welcome":"Swagat hai aapka",
+    "Mayank":"Owner name",
+    "age":[35],
+    "dict2":{"Mayank":"Player"}
+}
+print(dict1["Mayank"])
+
+# wlc=(prn.replace("welcome","swagat ha aapka"),prn)
+
+# print(dict1["Mayank"])
+# print(dict1["age"])mayan
+# print(dict1['dict2'])
+
+
+
